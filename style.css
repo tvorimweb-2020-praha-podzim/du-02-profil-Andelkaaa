@@ -52,9 +52,6 @@ p {
     margin-bottom: 2rem;
 }
 
-.obsah {
-    border-bottom: 0.5px solid #3f464d;
-}
 
 ul {
     list-style-type: none;
@@ -63,14 +60,20 @@ ul {
     width: 250px;
 }
 
-li a {
-    display: block;
-}
-
-.portfolio {
-    width: 250px;
+button {
+    background-color:#31363b;
+    border: 0.5px solid #3f464d;
+    padding: 15px 50px;
     text-align: center;
-}
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+
+  }
+
+
 
 
 
