@@ -1,26 +1,25 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-/*
- BARVY
- czechitas  #b92e81
- pozadi     #bdc3c7
- tmava      #31363b
- delitka    #3f464d
- portfolio  #e74c3c
- facebook   #3b5998
- twitter    #1da1f2
-*/
 
 
 body {
     background-color: #bdc3c7;
     margin: 2rem;
+    width: 250px;
 }
 
 div {
     background-color: #31363b;
     width: 250px;
+}
+
+.whole {
+    box-shadow: 5px 5px 5px rgb(85, 85, 85);
+}
+
+.logo {
+    box-shadow: 5px 5px 20px rgb(26, 26, 26);
 }
 
 h1 {
@@ -52,51 +51,60 @@ p {
     margin-bottom: 2rem;
 }
 
+.profil {
+    padding-bottom: 1rem;
+}
+
+
 
 button {
     background-color:#31363b;
-    border: 0.5px solid #3f464d;
-    padding: 15px 50px;
+    border: 1px solid #3f464d;
+    padding: 15px 49px;
     text-align: center;
-    display: inline-block;
-    font-size: 1rem;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: gainsboro;
     text-decoration: none;
+    cursor: pointer;
   }
 
   .portfolio {
     border-bottom: none;
-    position: relative;
+    width: 250px;
   }
 
   .facebook {
     position: relative;
-    width: 50%;
-    font-size: 16px;
-    cursor: pointer;
+    width: 125px;
     text-align: center;
     padding: 1rem
 }
 
   .twitter {
-    position: relative;
-    right: -125px;
-    width: 50%;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
+    position: absolute;
+    width: 125px;
     text-align: center;
     padding: 1rem;
   }
 
 
 
-  /* On mouse-over */
-  .button:hover {
-    color: #1da1f2;
+
+  .twitter:hover {
+    background-color: #1da1f2;
+    color: whitesmoke;
 }
 
+.facebook:hover {
+    background-color: #3b5998;
+    color: whitesmoke;
+}
+
+.portfolio:hover {
+    background-color: #e74c3c;
+    color: whitesmoke;
+}
 
 
 
