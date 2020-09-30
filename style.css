@@ -53,14 +53,8 @@ p {
 }
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-}
-
 button {
+    display: inline-block;
     background-color:#31363b;
     border: 0.5px solid #3f464d;
     padding: 15px 50px;
@@ -72,7 +66,33 @@ button {
     text-decoration: none;
 
   }
+  .facebook {
+    display: inline-block;
+    width: 50%;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem
+}
 
+  .twitter {
+    display: inline-block;
+    width: 50%;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .portfolio {
+      border-bottom: none;
+  }
+
+  /* On mouse-over */
+.button:hover {
+    background-color: #1da1f2;}
 
 
 
