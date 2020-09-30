@@ -53,6 +53,7 @@ p {
 
 .profil {
     padding-bottom: 1rem;
+    border-bottom: 1px solid #3f464d;
 }
 
 
@@ -70,7 +71,6 @@ button {
   }
 
   .portfolio {
-    border-bottom: none;
     width: 250px;
   }
 
