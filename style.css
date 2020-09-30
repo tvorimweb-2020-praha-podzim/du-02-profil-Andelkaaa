@@ -70,18 +70,18 @@ button {
     cursor: pointer;
   }
 
-  .portfolio {
+.portfolio {
     width: 250px;
   }
 
-  .facebook {
+.facebook {
     position: relative;
     width: 125px;
     text-align: center;
     padding: 1rem
 }
 
-  .twitter {
+.twitter {
     position: absolute;
     width: 125px;
     text-align: center;
@@ -91,7 +91,7 @@ button {
 
 
 
-  .twitter:hover {
+.twitter:hover {
     background-color: #1da1f2;
     color: whitesmoke;
 }
